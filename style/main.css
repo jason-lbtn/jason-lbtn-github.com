@@ -1,0 +1,173 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(../fonts/ubuntu.ttf);
+}
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100vw;
+    font-family: fantasy;
+}
+a {
+    text-decoration: none;
+}
+
+#header {
+    height: 40vh;
+    background-color: rgb(180, 230, 240);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#title {
+    color: white;
+    font-size: 2em;
+    line-height: 40vh;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+}
+
+.form {
+    position: absolute;
+}
+
+.section {
+    font-size: 2em;
+}
+
+#body {
+    z-index: 10;
+}
+
+#exp {
+    color: cadetblue;
+}
+#cint {
+    color: coral;
+}
+#firstname {
+    font-size: 3.5em;
+    color: dimgray;
+}
+#lastname {
+    font-size: 3em;
+    color: darkgray;
+}
+#status {
+    color: white;
+    font-size: 1.2em;
+    background-color: skyblue;
+    padding: .5em;
+    border-radius: 100px;
+}
+#case {
+    color: skyblue;
+    font-size: 1.5em;
+}
+.lang_vign {
+    border: 0.5em rgb(240,240,240) solid;
+    border-radius:200px; 
+}
+#project_vign {
+    font-family: ubuntu;
+    font-size: 1.5em;
+    border-radius: 1em;
+    min-width: 30em;
+}
+#project_vign:hover {
+    background-color: rgb(240,240,240);
+}
+.prjt_state {
+    font-size: .5em;
+    margin-left: .5em;
+}
+.prjt_desc {
+    font-size: 0.6em;
+    color:rgb(65,65,65);
+}
+.form_item {
+    font-size: 1.5em;
+    color: rgb(65,65,65);
+}
+#container {
+    margin-top: .5em;
+    height: .6em;
+    width: 6.5em;
+    background-color: silver;
+    border-radius: .1em;
+}
+
+#jauge {
+    height: .6em;
+    border-radius: .1em;
+}
+#comp_line {
+    border-left: .1em black solid;
+    padding-left: .4em;
+}
+
+#stats_table {
+    display: inline-block;
+    margin-left: 1em;
+    font-family: ubuntu;
+}
+#mail {
+    font-family: ubuntu;
+    color: rgb(120,120,120);
+}
+
+
+
+
+#profil{
+    left: 50%;
+    position: absolute;
+}
+#experience{
+    left: 25%;
+    top: 80vh;
+}
+#projets{
+    left: 75%;
+    top: 80vh;
+}
+#formations {
+    left: 25%;
+    top: 120vh;
+}
+#concours {
+    left: 75%;
+    top: 130vh;
+}
+.sec {
+    position: absolute;
+    background-color: white;
+    width: 45vw;
+    margin-left: -22.5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 10px;
+    border: .1em gray solid;
+    padding-left: 1vw;
+}
+
+#o1 {
+    filter: blur(5px);
+}
+#o2 {
+    filter: blur(1px);
+}
+#o8 {
+    filter: blur(3px);
+}
+#o6 {
+    filter: blur(1px);
+}
+#o9 {
+    filter: blur(2px);
+}
+#o0{
+    filter: blur(1px);
+}
