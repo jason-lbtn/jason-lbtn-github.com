@@ -100,18 +100,20 @@ a {
     font-size: 1.5em;
     color: rgb(65,65,65);
 }
-#container {
+.jauge {
     margin-top: .5em;
-    height: .6em;
-    width: 6.5em;
+    height: .3em;
+    width: 1.3em;
     background-color: silver;
     border-radius: .1em;
+    display: inline-block;
+}
+.lang_item {
+    text-align: center;
+    padding-left: .5em;
+    padding-right: .5em;
 }
 
-#jauge {
-    height: .6em;
-    border-radius: .1em;
-}
 #comp_line {
     border-left: .1em black solid;
     padding-left: .4em;
