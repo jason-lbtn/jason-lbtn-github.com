@@ -8,13 +8,14 @@ body {
     margin-left: 0;
     width: 100vw;
     font-family: fantasy;
+    background-color: rgb(245, 245, 245);
 }
 a {
     text-decoration: none;
 }
 
 #header {
-    height: 40vh;
+    height: 24em;
     background-color: rgb(180, 230, 240);
     margin-bottom: 0;
     text-align: center;
@@ -27,6 +28,14 @@ a {
     position: absolute;
     left: 50%;
     z-index: 1;
+}
+#rgb{
+    position: absolute;
+    background-color: dimgray;
+    color: white;
+    font-size: 1em;
+    padding: .2em;
+    top: 40em;
 }
 
 .form {
@@ -127,19 +136,19 @@ a {
 }
 #experience{
     left: 25%;
-    top: 80vh;
+    top: 48em;
 }
 #projets{
     left: 75%;
-    top: 80vh;
+    top: 48em;
 }
 #formations {
     left: 25%;
-    top: 120vh;
+    top: 73em;
 }
 #concours {
     left: 75%;
-    top: 130vh;
+    top: 79em;
 }
 .sec {
     position: absolute;

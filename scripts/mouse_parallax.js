@@ -18,8 +18,9 @@ function p_headScroll() {
     code.style.top = window.pageYOffset / 2 +'px';
 }
 
-function wallpaperize(o) {
-    document.getElementById("body").style.backgroundImage = 'url("pictures/wallpapers/forest-patrol.jpg")';
-}
+$("#header").mousemove(function(event) {
+    $("#header").css({"background-color": "rgb("+.5 * window.pageYOffset+","+0.5*event.pageY+","+.2 * event.pageX+")"});
+});
+
 
 window.onscroll = p_headScroll;
